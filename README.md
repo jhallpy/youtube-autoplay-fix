@@ -1,0 +1,1 @@
+Are you tired of youtube autoplaying? Me too. So I made an extension to fix that. 

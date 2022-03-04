@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Autoplay Fix",
+    "version": "1.0",
+
+    "description": "Automatically toggles autoplay feature in youtube to off.",
+
+    "icons": {
+        "48": "icon.png"
+    },
+    "content_scripts": [{
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["app.js"],
+        "run_at": "document_end"
+    }]
+
+
+}
